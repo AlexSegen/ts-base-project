@@ -10,7 +10,8 @@
         ],
         "semi": 2,
         "no-unused-vars": 2,
-        "no-console": 1
+        "no-console": 1,
+        "@typescript-eslint/no-floating-promises": "off"
     },
     "ignore": [
         "**/*.spec.ts",
