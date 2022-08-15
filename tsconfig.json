@@ -2,9 +2,9 @@
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
-    //"rootDir": "./src",
-    "baseUrl": "src",
-    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "outDir": "dist",
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -19,6 +19,6 @@
     }
   },
   "compileOnSave": false,
-  "exclude": ["node_modules"]
-  //"include": ["src/**/*.ts", "src/**/*.json", ".env"],
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts", "src/**/*.json", ".env"],
 }
